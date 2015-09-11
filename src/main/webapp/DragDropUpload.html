@@ -80,7 +80,7 @@ function readfiles(files) {
     // now post a new XHR request
     if (tests.formdata) {
       var xhr = new XMLHttpRequest();
-      xhr.open('POST', 'http://localhost:8080/DragAndDropUpload-With-Restful/rest/file/upload');
+      xhr.open('POST', 'http://localhost:8080/DragAndDropUpload/rest/file/upload');
       xhr.onload = function() {
         progress.value = progress.innerHTML = 100;
       };
